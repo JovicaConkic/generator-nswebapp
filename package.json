@@ -1,6 +1,6 @@
 {
   "name": "generator-nswebapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NS Web Development - Yeoman generator for WEB applications with GruntJS",
   "repository": "jovicaconkic/generator-nswebapp",
   "main": "index.js",
