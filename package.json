@@ -1,7 +1,7 @@
 {
   "name": "generator-nswebapp",
   "version": "1.0.0",
-  "description": "> NS Web Development - Yeoman generator for WEB applications with GruntJS",
+  "description": "NS Web Development - Yeoman generator for WEB applications with GruntJS",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
