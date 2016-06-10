@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html,
+body {
+    height: 100%;
+    padding-top: 20px;
+}
+.container {
+    width: auto;
+    max-width: 900px;
+    padding: 20px 0;
+    text-align: center;
+    .credit {
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "generator-nswebapp",
+  "version": "1.0.0",
+  "description": "> NS Web Development - Yeoman generator for WEB applications with GruntJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "Jovica Čonkic",
+    "email": "jovica.conkic@gmail.com",
+    "url": "https://github.com/JovicaConkic"
+  },
+  "license": "ISC",
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "generator",
+    "framework",
+    "web",
+    "html5",
+    "grunt"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "chip": "0.0.5",
+    "generator-common": "^0.2.0",
+    "generator-travis": "^1.3.0",
+    "lodash": "^4.13.1",
+    "yeoman-generator": "^0.23.3",
+    "yo": "^1.8.4",
+    "yosay": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
+

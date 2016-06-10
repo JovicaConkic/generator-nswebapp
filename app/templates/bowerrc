@@ -1,0 +1,6 @@
+{
+    "directory": "app/assets/bower_components",
+    "scripts": {
+        "postinstall":  "grunt default"
+    }
+}
