@@ -76,6 +76,8 @@ module.exports = generators.Base.extend({
             if(!this.options['skip-install']) {
                 this.includeBootstrap = _.includes(answers.dependencies, 'bootstrap');
                 this.includeJquery = _.includes(answers.dependencies, 'jquery');
+                this.config.set('bootstrap', this.includeBootstrap);
+                this.config.set('jquery', this.includeJquery);
                 
                 this.log('\n');
                 if(!this.includeBootstrap) {
@@ -129,7 +131,7 @@ module.exports = generators.Base.extend({
             });
         },
         bower: function() {
-            if(!this.config.get('bowerInstalled')) {
+            if(!this.options['skip-install'] || !this.config.get('bowerInstalled')) {
                 var bowerJson = {
                     name: this.appname,
                     license: 'MIT',
@@ -171,7 +173,8 @@ module.exports = generators.Base.extend({
                 this.templatePath('src/js/_script.js'),
                 this.destinationPath('src/js/script.js'),
                 {
-                    jquery: this.includeJquery || this.includeBootstrap ? true : false
+                    jquery: this.config.get('jquery') || false,
+                    bootstrap: this.config.get('bootstrap') || false
                 }
             );
         },

@@ -1,6 +1,7 @@
 (function (<% if(jquery) {%>$, <%} %>window, document) {
 
   'use strict';
+  <% if(!bootstrap) {%>
   var navButton = document.getElementById('navbar').getElementsByClassName('navbar-toggle')[0];
   var mobileMenu = document.getElementById('navbar').getElementsByClassName('collapse navbar-collapse')[0];
 
@@ -8,5 +9,5 @@
     e.preventDefault();
     mobileMenu.classList.toggle('in');
   });
-
+  <%} %>
 })(<% if(jquery) {%>jQuery, <%} %>window, document);
