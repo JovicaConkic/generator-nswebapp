@@ -1,7 +1,7 @@
 # generator-nswebapp [![Build Status](https://secure.travis-ci.org/JovicaConkic/generator-nswebapp.svg?branch=master)](http://travis-ci.org/JovicaConkic/generator-nswebapp) [![Dependency Status](https://david-dm.org/JovicaConkic/generator-nswebapp.svg)](https://david-dm.org/JovicaConkic/generator-nswebapp) [![devDependency Status](https://david-dm.org/JovicaConkic/generator-nswebapp/dev-status.svg)](https://david-dm.org/JovicaConkic/generator-nswebapp#info=devDependencies) [![npm version](https://badge.fury.io/js/generator-nswebapp.svg)](https://badge.fury.io/js/generator-nswebapp)
 > Yeoman generator for Web Applications with GruntJS
 
-generator-nswebapp is eoman based generator for building the web applications. It is created as a sum of everything that you can find all over www and which is really necessary and helpful to start your work of building web application.
+generator-nswebapp is yeoman based generator for building the web applications. It is created as a sum of everything that you can find all over www and which is really necessary and helpful to start your work of building web application.
 
 ## Prerequisites
 
